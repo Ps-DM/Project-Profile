@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: ffffff;
+    display: flow-root;
+
+}
+  
+  .c {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.9);
+      transition: background 0.3s;
+  }
+  .navbar {
+      position: fixed;
+      top: 0;
+      width: 93%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0;
+
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s;
+  }
+  .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: background 0.3s;
+      position: relative;
+      width: max-content;
+  }
+  
+  .navbar.scrolled {
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+  }
+  .navbar a:hover, .navbar a.active {
+      background: #333;
+      color: white;
+  }
+  section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      
+  }
+  #theme-toggle {
+      border: none;
+      background: transparent;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  
+  .profile {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #e483ff17;
+    border-radius: 8px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+  }
+  .profile h2{
+    font-size: 30px;
+    color: #4badf4;
+    
+
+  }
+  .profile p{
+    font-size: 20px;
+    
+  }
+  
+  .social-links img 
+  {
+        margin-top: 20px;
+}
+    
+    .social-links a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 20px;
+        color: black;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+    
+    .social-links a:hover {
+        background: rgb(180, 180, 180);
+        color: black;
+    }
+  
+  .dark-mode {
+      background: #121212;
+      color: white;
+  }
+  .container {
+      position: relative;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      
+  }
+  .logo {
+      font-size: 25px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+  }
+  #home {
+      display: flex; 
+       align-items: center;
+       height: 100vh;
+       padding: 50px 5%;
+       justify-content: center;
+   }
+   
+   .home-detail h1 {
+       display: inline-block; 
+       font-size: 55px;
+       font-weight: bold;
+       line-height: 1.2;
+   }
+   
+   .home-detail h1 span {
+       color: #4badf4;
+   }
+   
+   .home-detail p {
+       font-size: 18px;
+       margin: 10px 0 20px;
+   }
+   #theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      background: #000;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  
+  #theme-toggle:hover {
+      background: #555;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background: linear-gradient(to bottom, #5a5786, #111322);
+      color: white;
+  }
+  
+  .dark-mode .navbar {
+      background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .dark-mode .navbar a {
+      color: white;
+  }
+  
+  .dark-mode .navbar a:hover, .dark-mode .navbar a.active {
+      background: white;
+      color: black;
+  }
+  
+  .dark-mode #theme-toggle {
+      background: white;
+      color: black;
+  }
+
+  .about-section {
+   max-height: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    color: #4badf4;
+    
+}
+
+.about-section img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.about-section h3 {
+    font-size: 2rem;
+    
+}
+
+.about-section p {
+    border-radius: 20px;
+    width: 50%;
+    max-width: 150%;
+    background-color: #5a578642;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+   
+}
+.personal-info{
+    font-size: 20px;
+}
+.skills {
+    text-align: center;
+    margin: 30px;
+}
+.skills h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #4badf4;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.skill {
+    background-color: #334155; /* Dark grayish background */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }}
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+    }
+    .contact-ps h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #4badf4;
+    }
+    .contact-ps h2 {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        
+        border-radius: 8px;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(231, 230, 230);
+        color:rgb(194, 191, 191);
+        font-size: 1em;
+    }
+
+
+    .contact-form button {
+        width: 50%;
+        padding: 10px;
+        background-color: #2d72fc;
+        border: none;
+        border-radius: 5px;
+        
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+        background-color: #1b5bd4;
+    }
+    .footer {
+        text-align: center;
+        padding: 20px;
+       font-size: 0.9em;
+    }
+    .footer a {
+        
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
