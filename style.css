@@ -49,9 +49,6 @@ body {
       background: #333;
       color: white;
   }
-  section {
-      padding: 100px 20px;
-      min-height: 100vh;
       
   }
   #theme-toggle {
