@@ -49,8 +49,7 @@ body {
       background: #333;
       color: white;
   }
-      
-  }
+ 
   #theme-toggle {
       border: none;
       background: transparent;
@@ -232,11 +231,11 @@ body {
 }
 .skills {
     text-align: center;
-    margin: 30px;
+   
+   
 }
 .skills h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 35px;
     color: #4badf4;
 }
 .skill-container {
@@ -263,7 +262,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 10vh;
+       
     }
     .contact-ps h1 {
         font-size: 2em;
